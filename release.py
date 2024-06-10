@@ -27,7 +27,7 @@ with open('setup.py', 'w') as file:
     file.writelines(setup_content)
 
 # Set TWINE_PASSWORD environment variable
-os.environ['TWINE_PASSWORD'] = "pypi-AgEIcHlwaS5vcmcCJDhjMTFhZTY4LWQ2ZGItNDgxZS1hMzllLWMwZGUzOTUzZDQ3ZAACKlszLCJiNjk5ZjljMy1iYmI1LTQ4MmEtYTI4Ni00ZDgzZTZhZjYzMDgiXQAABiDSSucPZvMGbKvEl0I8AU5429wIsod-mLHs6aKSHHQRng"
+os.environ['TWINE_PASSWORD'] = "pypi-AgEIcHlwaS5vcmcCJGNiNDhhY2Y5LWEzNDgtNDQ0Ny1hZGIwLWI1YjVmY2E3NjJlOAACFFsxLFsiYWdlbnR4LXRvb2xzIl1dAAIsWzIsWyIyMGEzNWFmNy05NTgwLTQzOTItODllYS1kOGViMTk3OWMwOWEiXV0AAAYgIHPdyWr-S8L-LdLZsrABUH872W_dK0c0LiJ8K1UzPZw"
 
 # Remove dist directory
 if os.path.exists('dist'):

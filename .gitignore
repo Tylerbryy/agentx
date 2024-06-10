@@ -47,3 +47,15 @@ dmypy.json
 
 # VS Code
 .vscode/
+# Release files
+release.py
+
+# PyPI credentials
+.pypirc
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+
