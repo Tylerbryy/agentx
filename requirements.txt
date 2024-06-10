@@ -4,3 +4,4 @@ crewai-tools>=0.2.0,<=0.2.6
 langchain-community>=0.0.38,<0.1.0
 langchain>=0.1.4,<0.2.0
 langchain-openai>=0.1.8,<0.2.0
+duckduckgo-search==6.1.5
