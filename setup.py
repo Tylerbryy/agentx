@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='agentx-tools',
-    version='0.7',
+    version='0.7.1',
     packages=find_packages(),
     description='A collection of tools for Large Language Model Agents',
     long_description=open('README.md').read(),
@@ -26,6 +26,7 @@ setup(
         'langchain-core>=0.1.52,<0.2.0',  
         'crewai-tools>=0.2.0,<=0.2.6',
         'langchain-community>=0.0.38,<0.1.0',  
-        'langchain>=0.1.4,<0.2.0',  
+        'langchain>=0.1.4,<0.2.0',
+        'duckduckgo-search==6.1.5'
     ],
 )
