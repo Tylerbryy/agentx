@@ -25,7 +25,7 @@ Here are some examples of how to use the various tools provided by AgentX:
 
 ### Date Tools
 
-```
+```python
 from agentx import AgentX
 
 agent = AgentX()
@@ -63,7 +63,7 @@ print(agent.date_tools.get_date_from_ordinal.invoke({"ordinal": 738532}))
 ```
 ### RAG Search Tools
 
-```
+```python
 from agentx import AgentX
 
 agent = AgentX()
@@ -72,7 +72,7 @@ print(agent.rag_search_tools.search_rag_txt('what is the medical codes for autis
 ```
 
 ### Scraping Tools
-```
+```python
 from agentx import AgentX
 
 agent = AgentX()
@@ -81,7 +81,7 @@ print(agent.scraping_tools.scrape_website('https://www.nbcnews.com/politics/poli
 
 ```
 ### Search Tools
-```
+```python
 from agentx import AgentX
 
 agent = AgentX()
@@ -90,7 +90,7 @@ print(agent.search_tools.search_internet.invoke('what is hawking radiation?'))
 
 ```
 ### Statistical Tools
-```
+```python
 from agentx import AgentX
 
 agent = AgentX()
